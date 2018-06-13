@@ -1,0 +1,26 @@
+# Blender MTL File: 'door_neutral1324.blend'
+# Material Count: 2
+
+newmtl Door
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Mina filer\Mina Projekt\KTH\Master\DH222X Exjobb\Models\CC0\blends\DoorsWood0140_1_M.jpg
+map_Bump  D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\blends\\DoorsWood0140_1_M_Normal.jpg
+
+newmtl Door_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump  D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\blends\\DoorsWood0140_1_M_Normal.jpg
+map_Kd  D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\blends\\DoorsWood0140_1_M.jpg

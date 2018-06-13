@@ -1,0 +1,16 @@
+# Created by Metasequoia
+
+newmtl Handle
+Ka 0.48000 0.48000 0.48000
+Kd 0.64000 0.64000 0.64000
+Ks 0.00000 0.00000 0.00000
+Ns 5.00000
+map_Kd DoorsWood0140_1_M.jpg
+
+newmtl Handle_NONE
+Ka 0.48000 0.48000 0.48000
+Kd 0.64000 0.64000 0.64000
+Ks 0.00000 0.00000 0.00000
+Ns 5.00000
+map_Kd DoorsWood0140_1_M.jpg
+

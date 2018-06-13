@@ -1,0 +1,2128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fitting_database>
+
+	<face_types>
+	
+		<face_type>
+			<face_type_id>chair lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>chair back</face_type_id>
+		</face_type>
+	
+		<face_type>
+			<face_type_id>chair front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>table side</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>table side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>stool lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>stool back</face_type_id>
+		</face_type>
+	
+		<face_type>
+			<face_type_id>stool front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>table side</support_face_type_id>
+					<distance>0.20</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa lateral side</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>side table side</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sofa front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>coffee table long side</support_face_type_id>
+					<distance>0.25</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>armchair front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>foot stool lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>foot stool back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>sofa front</support_face_type_id>
+					<distance>0.05</distance>
+				</relation>
+				<relation>
+					<support_face_type_id>armchair front</support_face_type_id>
+					<distance>0.05</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>foot stool front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>coffee table lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>coffee table long side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>side table side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>floor lamp side</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>sofa lateral side</support_face_type_id>
+					<distance>0.20</distance>
+				</relation>
+				<relation>
+					<support_face_type_id>armchair lateral side</support_face_type_id>
+					<distance>0.20</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>sofa front</support_face_type_id>
+					<distance>1.80</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv back</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>tv lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>bookcase lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>cabinet front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>cabinet back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>cabinet lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sideboard front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sideboard back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>sideboard lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall picture front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall picture back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall picture lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>electric guitar front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>electric guitar back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>electric guitar lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano back</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano keyboard side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano bench lateral side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano bench back</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>piano bench front</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>piano keyboard side</support_face_type_id>
+					<distance>0.25</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>floor plant side</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>urn side</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>football table play side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>football table goal side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>pool table broad side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>pool table end side</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall box front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall box back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall box lateral side</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall box lateral side</support_face_type_id>
+					<distance>0.10</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall shelf front</face_type_id>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall shelf back</face_type_id>
+			<relations>
+				<relation>
+					<support_face_type_id>wall</support_face_type_id>
+					<distance>0</distance>
+				</relation>
+			</relations>
+		</face_type>
+		
+		<face_type>
+			<face_type_id>wall shelf lateral side</face_type_id>
+		</face_type>
+		
+	</face_types>
+	
+	<fitting_types>
+	
+		<fitting_type>
+			<fitting_type_id>chair</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>chair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>chair back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>chair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>chair front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>table side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>stool</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>stool lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>stool back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>stool lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>stool front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>sofa</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>sofa lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>sofa back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>sofa lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>sofa front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>corner sofa</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>sofa lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>sofa back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>sofa back</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>sofa front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>armchair</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>armchair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>armchair back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>armchair lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>armchair front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>foot stool</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>foot stool lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>foot stool back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>foot stool lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>foot stool front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>coffee table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>coffee table lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>coffee table long side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>coffee table lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>coffee table long side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>side table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>side table side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>side table side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>side table side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>side table side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>floor lamp</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>floor lamp side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>tv</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>tv lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>tv back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>tv lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>tv front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>bookcase lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>bookcase back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>bookcase lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>bookcase front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>cabinet</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>cabinet lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>cabinet back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>cabinet lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>cabinet front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>sideboard</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>sideboard lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>sideboard back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>sideboard lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>sideboard front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>wall picture lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>wall picture back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>wall picture lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>wall picture front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>electric guitar</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>electric guitar lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>electric guitar back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>electric guitar lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>electric guitar front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>piano</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>piano lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>piano back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>piano lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>piano keyboard side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>piano bench</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>piano bench lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>piano bench back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>piano bench lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>piano bench front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>floor plant</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>floor plant side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>floor plant side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>floor plant side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>floor plant side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>urn</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>urn side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>urn side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>urn side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>urn side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>football table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>football table play side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>football table goal side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>football table play side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>football table goal side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>pool table</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>pool table end side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>pool table broad side</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>pool table end side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>pool table broad side</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>wall box</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>wall box lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>wall box back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>wall box lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>wall box front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+		<fitting_type>
+			<fitting_type_id>wall shelf</fitting_type_id>
+			<faces>
+				<face>
+					<facing>right</facing>
+					<face_type_id>wall shelf lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>back</facing>
+					<face_type_id>wall shelf back</face_type_id>
+				</face>
+				<face>
+					<facing>left</facing>
+					<face_type_id>wall shelf lateral side</face_type_id>
+				</face>
+				<face>
+					<facing>front</facing>
+					<face_type_id>wall shelf front</face_type_id>
+				</face>
+			</faces>
+		</fitting_type>
+		
+	</fitting_types>
+	
+	<fitting_models>
+	
+		<fitting_model>
+			<fitting_type_id>chair</fitting_type_id>
+			<fitting_model_id>DougC traditional wooden chair</fitting_model_id>
+			<bounding_box>
+				<width>0.50</width>
+				<depth>0.62</depth>
+				<height>1.18</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.1</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.1</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>chair</fitting_type_id>
+			<fitting_model_id>SVIS wooden chair 2</fitting_model_id>
+			<bounding_box>
+				<width>0.42</width>
+				<depth>0.48</depth>
+				<height>0.89</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>table</fitting_type_id>
+			<fitting_model_id>DougC traditional wooden round table</fitting_model_id>
+			<bounding_box>
+				<width>1.24</width>
+				<depth>1.24</depth>
+				<height>0.75</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>table</fitting_type_id>
+			<fitting_model_id>SVIS wooden table 2</fitting_model_id>
+			<bounding_box>
+				<width>1.70</width>
+				<depth>0.90</depth>
+				<height>0.75</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>stool</fitting_type_id>
+			<fitting_model_id>Daniel74 simple wooden stool</fitting_model_id>
+			<bounding_box>
+				<width>0.44</width>
+				<depth>0.39</depth>
+				<height>0.41</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>sofa</fitting_type_id>
+			<fitting_model_id>SVIS burlap two-seater sofa</fitting_model_id>
+			<bounding_box>
+				<width>1.70</width>
+				<depth>0.90</depth>
+				<height>0.80</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>sofa</fitting_type_id>
+			<fitting_model_id>Towercg modern three-seater sofa</fitting_model_id>
+			<bounding_box>
+				<width>2.28</width>
+				<depth>0.97</depth>
+				<height>0.77</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>corner sofa</fitting_type_id>
+			<fitting_model_id>Mitch37 black corner sofa</fitting_model_id>
+			<bounding_box>
+				<width>2.49</width>
+				<depth>1.90</depth>
+				<height>0.78</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>armchair</fitting_type_id>
+			<fitting_model_id>Cris1983 leather armchair</fitting_model_id>
+			<bounding_box>
+				<width>0.96</width>
+				<depth>0.85</depth>
+				<height>0.79</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>armchair</fitting_type_id>
+			<fitting_model_id>Fawdda wicker armchair</fitting_model_id>
+			<bounding_box>
+				<width>0.56</width>
+				<depth>0.55</depth>
+				<height>0.88</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>armchair</fitting_type_id>
+			<fitting_model_id>SVIS armchair 3</fitting_model_id>
+			<bounding_box>
+				<width>0.58</width>
+				<depth>0.68</depth>
+				<height>0.95</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.30</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>foot stool</fitting_type_id>
+			<fitting_model_id>SVIS foot stool</fitting_model_id>
+			<bounding_box>
+				<width>0.60</width>
+				<depth>0.51</depth>
+				<height>0.33</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>coffee table</fitting_type_id>
+			<fitting_model_id>SVIS coffee table</fitting_model_id>
+			<bounding_box>
+				<width>1.24</width>
+				<depth>0.52</depth>
+				<height>0.48</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.25</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>side table</fitting_type_id>
+			<fitting_model_id>Simple wooden side table</fitting_model_id>
+			<bounding_box>
+				<width>0.42</width>
+				<depth>0.35</depth>
+				<height>0.42</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor lamp</fitting_type_id>
+			<fitting_model_id>metal floor lamp with SVIS lamp fixture</fitting_model_id>
+			<bounding_box>
+				<width>0.40</width>
+				<depth>0.40</depth>
+				<height>1.43</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>tv</fitting_type_id>
+			<fitting_model_id>SVIS flatscreen TV on TV stand</fitting_model_id>
+			<bounding_box>
+				<width>1.04</width>
+				<depth>0.22</depth>
+				<height>0.85</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>1.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<fitting_model_id>Arikel white bookcase</fitting_model_id>
+			<bounding_box>
+				<width>1.43</width>
+				<depth>0.56</depth>
+				<height>1.98</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<fitting_model_id>Qubodup high-standing bookcase</fitting_model_id>
+			<bounding_box>
+				<width>0.45</width>
+				<depth>0.45</depth>
+				<height>1.61</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>bookcase</fitting_type_id>
+			<fitting_model_id>SVIS glass case</fitting_model_id>
+			<bounding_box>
+				<width>1.09</width>
+				<depth>0.44</depth>
+				<height>1.78</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.8</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>cabinet</fitting_type_id>
+			<fitting_model_id>Niebieski wooden cabinet</fitting_model_id>
+			<bounding_box>
+				<width>0.73</width>
+				<depth>0.41</depth>
+				<height>1.17</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>1.00</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>cabinet</fitting_type_id>
+			<fitting_model_id>SVIS glass cabinet</fitting_model_id>
+			<bounding_box>
+				<width>1.11</width>
+				<depth>0.37</depth>
+				<height>1.22</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>sideboard</fitting_type_id>
+			<fitting_model_id>Lyadbarany modern sideboard</fitting_model_id>
+			<bounding_box>
+				<width>1.69</width>
+				<depth>0.55</depth>
+				<height>0.51</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Jedrush canvas floral collage picture</fitting_model_id>
+			<bounding_box>
+				<width>0.73</width>
+				<depth>0.07</depth>
+				<height>1.80</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Licolnhuseby windswept landscape painting</fitting_model_id>
+			<bounding_box>
+				<width>0.75</width>
+				<depth>0.01</depth>
+				<height>1.70</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>forest adventure 2017 photo in frame</fitting_model_id>
+			<bounding_box>
+				<width>0.50</width>
+				<depth>0.01</depth>
+				<height>1.60</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>girl in the mountain painted portrait</fitting_model_id>
+			<bounding_box>
+				<width>0.24</width>
+				<depth>0.01</depth>
+				<height>1.63</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Fihelly black and white photo portrait</fitting_model_id>
+			<bounding_box>
+				<width>0.20</width>
+				<depth>0.01</depth>
+				<height>1.59</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Langen black and white photo portrait</fitting_model_id>
+			<bounding_box>
+				<width>0.20</width>
+				<depth>0.01</depth>
+				<height>1.59</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Sibelius black and white photo portrait</fitting_model_id>
+			<bounding_box>
+				<width>0.20</width>
+				<depth>0.01</depth>
+				<height>1.59</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall picture</fitting_type_id>
+			<fitting_model_id>Elisabeth von der Luhe black and white photo portrait</fitting_model_id>
+			<bounding_box>
+				<width>0.20</width>
+				<depth>0.01</depth>
+				<height>1.59</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>electric guitar</fitting_type_id>
+			<fitting_model_id>Seavenois electric guitar</fitting_model_id>
+			<bounding_box>
+				<width>0.35</width>
+				<depth>0.33</depth>
+				<height>1.10</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>piano</fitting_type_id>
+			<fitting_model_id>Dante grand piano</fitting_model_id>
+			<bounding_box>
+				<width>1.32</width>
+				<depth>1.48</depth>
+				<height>1.03</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.90</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.05</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.05</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.05</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>piano bench</fitting_type_id>
+			<fitting_model_id>Simon Repp leather piano bench</fitting_model_id>
+			<bounding_box>
+				<width>0.62</width>
+				<depth>0.36</depth>
+				<height>0.53</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.40</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor plant</fitting_type_id>
+			<fitting_model_id>SVIS potted ficus</fitting_model_id>
+			<bounding_box>
+				<width>0.83</width>
+				<depth>0.81</depth>
+				<height>1.64</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor plant</fitting_type_id>
+			<fitting_model_id>Elysia red orchid pedestal</fitting_model_id>
+			<bounding_box>
+				<width>0.38</width>
+				<depth>0.37</depth>
+				<height>1.40</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor plant</fitting_type_id>
+			<fitting_model_id>Ndakasha potted tree</fitting_model_id>
+			<bounding_box>
+				<width>0.61</width>
+				<depth>0.56</depth>
+				<height>1.41</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>floor plant</fitting_type_id>
+			<fitting_model_id>Sparazza potted plant</fitting_model_id>
+			<bounding_box>
+				<width>0.37</width>
+				<depth>0.45</depth>
+				<height>1.09</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>urn</fitting_type_id>
+			<fitting_model_id>SVIS antique urn</fitting_model_id>
+			<bounding_box>
+				<width>0.47</width>
+				<depth>0.47</depth>
+				<height>0.78</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.10</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>football table</fitting_type_id>
+			<fitting_model_id>Jeff2207 football table</fitting_model_id>
+			<bounding_box>
+				<width>1.51</width>
+				<depth>1.26</depth>
+				<height>1.02</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.50</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.50</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.05</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.05</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>pool table</fitting_type_id>
+			<fitting_model_id>Jeffie pool table</fitting_model_id>
+			<bounding_box>
+				<width>2.59</width>
+				<depth>1.40</depth>
+				<height>0.83</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.55</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0.55</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0.55</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0.55</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall box</fitting_type_id>
+			<fitting_model_id>minimalist white rectangular wall box</fitting_model_id>
+			<bounding_box>
+				<width>0.26</width>
+				<depth>0.16</depth>
+				<height>1.50</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall box</fitting_type_id>
+			<fitting_model_id>minimalist white square wall box</fitting_model_id>
+			<bounding_box>
+				<width>0.30</width>
+				<depth>0.16</depth>
+				<height>1.40</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall shelf</fitting_type_id>
+			<fitting_model_id>minimalist white wall shelves</fitting_model_id>
+			<bounding_box>
+				<width>1.00</width>
+				<depth>0.22</depth>
+				<height>1.60</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+		<fitting_model>
+			<fitting_type_id>wall shelf</fitting_type_id>
+			<fitting_model_id>minimalist wooden wall shelves</fitting_model_id>
+			<bounding_box>
+				<width>1.00</width>
+				<depth>0.22</depth>
+				<height>1.60</height>
+			</bounding_box>
+			<clearance_areas>
+				<clearance_area>
+					<side>front</side>
+					<perpendicular_length>0.80</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>back</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>right</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+				<clearance_area>
+					<side>left</side>
+					<perpendicular_length>0</perpendicular_length>
+				</clearance_area>
+			</clearance_areas>
+		</fitting_model>
+		
+	</fitting_models>
+	
+</fitting_database>

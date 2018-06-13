@@ -1,0 +1,14 @@
+# Blender MTL File: 'medieval-props.blend'
+# Material Count: 1
+
+newmtl Wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.080000 0.080000 0.080000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Mina filer\Mina Projekt\KTH\Master\DH222X Exjobb\Models\CC0\blends\Wood floor 2.png
+map_Bump -bm 0.200000 D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\blends\\Wood floor 2.png

@@ -1,0 +1,44 @@
+# Blender MTL File: 'good-afternoon-potted-tree_ndakasha.blend'
+# Material Count: 4
+
+newmtl Grass
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.042105 0.042105 0.042105
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd  D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\Users\\User\\Pictures\\Fields_wallpapers_488.jpg
+map_d  D:\\Mina filer\\Mina Projekt\\KTH\\Master\\DH222X Exjobb\\Models\\CC0\\Users\\User\\Pictures\\Fields_wallpapers_488.jpg
+
+newmtl Material.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.020
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.025
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

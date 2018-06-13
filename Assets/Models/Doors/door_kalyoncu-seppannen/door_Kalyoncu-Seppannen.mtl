@@ -1,0 +1,13 @@
+# Blender MTL File: 'door-and-window.blend'
+# Material Count: 1
+
+newmtl Door
+Ns 76.470588
+Ka 1.000000 1.000000 1.000000
+Kd 0.300600 0.236786 0.173793
+Ks 0.219272 0.174934 0.146366
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd  .

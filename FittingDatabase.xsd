@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+			XML Schema definition for interior fitting semantics. 
+		</xs:documentation>
+	</xs:annotation>
+	
+	<xs:element name="fitting_database">
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="fitting_types">
+					<xs:complexType>
+						<xs:sequence>
+						
+							<xs:element name="fitting_type" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<!-- Fitting type name -->
+										<xs:element name="fitting_type_id" type="xs:string" />
+										
+										<!-- Specification of fitting sides difference in the horizontal plane -->
+										<xs:element name="orientedness">
+											<xs:simpleType>
+												<xs:restriction base="xs:token">
+													<xs:enumeration value="oriented"/>
+													<xs:enumeration value="symmetrical"/>
+													<xs:enumeration value="equilateral"/>
+													<xs:enumeration value="circular"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										
+										<!-- If fitting should be placed near wall -->
+										<xs:element name="wall_contact" type="xs:boolean" />
+										
+										<!-- Ideal facing angle in the horizontal plane from the fitting front side normal to the nearest wall surface normal, measured in degrees -->
+										<xs:element name="orientation_to_wall" minOccurs="0">
+											<xs:simpleType>
+												<xs:restriction base="xs:decimal">
+													<xs:minInclusive value="-180" />
+													<xs:maxInclusive value="180" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										
+										<!-- Pairwise spatial relations to other fittings -->
+										<xs:element name="relations">
+											<xs:complexType>
+												<xs:sequence>
+												
+													<xs:element name="relation" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																
+																<xs:element name="related_fitting_type_id" type="xs:string" />
+																
+																<!-- Ideal distance to related fitting, measured in metres -->
+																<xs:element name="distance_to_fitting">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minInclusive value="0" />
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																
+																<!-- Ideal facing angle from the fitting front side normal and to the related fitting side in the horizontal plane, measured in degrees -->
+																<xs:element name="orientation_to_fitting">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minInclusive value="-180" />
+																			<xs:maxInclusive value="180" />
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																
+																<xs:element name="side_propabilities">
+																	<xs:complexType>
+																		<xs:sequence>
+
+																			<xs:element name="front">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:decimal">
+																						<xs:minInclusive value="0" />
+																						<xs:maxInclusive value="1" />
+																					</xs:restriction>
+																				</xs:simpleType>
+																			</xs:element>
+																			<xs:element name="back">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:decimal">
+																						<xs:minInclusive value="0" />
+																						<xs:maxInclusive value="1" />
+																					</xs:restriction>
+																				</xs:simpleType>
+																			</xs:element>
+																			<xs:element name="right">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:decimal">
+																						<xs:minInclusive value="0" />
+																						<xs:maxInclusive value="1" />
+																					</xs:restriction>
+																				</xs:simpleType>
+																			</xs:element>
+																			<xs:element name="left">
+																				<xs:simpleType>
+																					<xs:restriction base="xs:decimal">
+																						<xs:minInclusive value="0" />
+																						<xs:maxInclusive value="1" />
+																					</xs:restriction>
+																				</xs:simpleType>
+																			</xs:element>
+																		
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+													
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="fitting_models">
+					<xs:complexType>
+						<xs:sequence>
+						
+							<xs:element name="fitting_model" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<!-- Fitting model type name -->
+										<xs:element name="fitting_type_id" type="xs:string" />
+									
+										<!-- Fitting model name -->
+										<xs:element name="fitting_model_id" type="xs:string" />
+											
+										<!-- Bounding dimensions, measured in metres -->
+										<xs:element name="bounding_box">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="width">
+														<xs:simpleType>
+															<xs:restriction base="xs:decimal">
+																<xs:minInclusive value="0" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="depth">
+														<xs:simpleType>
+															<xs:restriction base="xs:decimal">
+																<xs:minInclusive value="0" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="height">
+														<xs:simpleType>
+															<xs:restriction base="xs:decimal">
+																<xs:minInclusive value="0" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+										<xs:element name="clearance_areas">
+											<xs:complexType>
+												<xs:sequence>
+												
+													<xs:element name="clearance_area" minOccurs="1" maxOccurs="4">
+														<xs:complexType>
+															<xs:sequence>
+																
+																<!-- Side of fitting -->
+																<xs:element name="side">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:token">
+																			<xs:enumeration value="front"/>
+																			<xs:enumeration value="back"/>
+																			<xs:enumeration value="left"/>
+																			<xs:enumeration value="right"/>
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																
+																<!-- Clearance area rectangle dimension perpendicular to the specified side, measured in metres -->
+																<xs:element name="perpendicular_length">
+																	<xs:simpleType>
+																		<xs:restriction base="xs:decimal">
+																			<xs:minInclusive value="0" />
+																		</xs:restriction>
+																	</xs:simpleType>
+																</xs:element>
+																
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+											
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="room_types">
+					<xs:complexType>
+						<xs:sequence>
+						
+							<xs:element name="room_type" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										
+										<xs:element name="room_type_id" type="xs:string" />
+										
+										<xs:element name="fitting_priorities">
+											<xs:complexType>
+												<xs:sequence>
+												
+													<xs:element name="fitting_priority" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+															
+															<xs:element name="fitting_type_id" type="xs:string" />
+															
+															<xs:element name="importance">
+																<xs:simpleType>
+																	<xs:restriction base="xs:decimal">
+																		<xs:minInclusive value="0" />
+																		<xs:maxInclusive value="1" />
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:element>
+															
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+				
+</xs:schema>
