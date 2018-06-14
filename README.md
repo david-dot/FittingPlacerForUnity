@@ -1,0 +1,16 @@
+# Fitting Placer for Unity
+This is a Unity 2017 project for interfacing with an included C# 6.0 algorithm (https://github.com/david-dot/FittingPlacer) for asynchronically and automatically placing furniture or interior objects in a rectangular room according to simple principles. As the procedural generation of furniture layouts runs using async methods, it will not interrupt the main Unity thread. The algorithm works by registering furniture sides (and wall sides) and connecting specified related sides at specified distances from each other. It then places all furniture at positions inside the room while checking for overlaps and also respecting specified clearance areas around furniture (and also for windows and doors). 
+
+## Trying it out
+Open the project in Unity and run it. At default settings, it should after a short moment populate the room with some interior objects, save those furniture placements to a text file for later reference, move the camera along the window wall, and capture the frames to save as image files. The saving settings can be turned off in the WindowCameraBehaviour component of the Window camera object and the RoomController component of the activated room variant. 
+
+Activate the room you want to populate with furniture under "Room variants" and deactivate all other rooms. In the RoomController component you are also able to adjust other settings. The room dimensions should match the rectangular room model in Unity units (meters). The procedural placement can be turned off by unchecking "DoPlaceFittings". The placement algorithm's side-based spatial relation constraints and clearance area constraints can be turned off by checking "PlaceFittingsUnstructured" to see how much their abscence impact the result. Fill in one line for each fitting instance you want to be placed in "NamesOfFittingModelsToBePlaced". 
+
+Note that the furniture models to-be-placed must match the models named in the FittingDatabase.xml file in the base project folder. That file can be edited to match the interior object models you are using in your application, as long a you follow the same structure. By studying the input the RoomController.cs script feeds the algorithm and how it processes the output, you should be able to integrate the algorithm into your Unity application for async generation of rectangular furniture arrangements. 
+
+## Algorithm help files
+While the algorithm code is heavily commented, there is no extensive documentation included. See the academic paper Ringqvist (2018) for algorithm explanations. An incomplete overview class structure is included in the UML schema in "HelpFiles/Class UML Schematic - incomplete overview.png". Additionally an overview of the algorithm is shown in "HelpFiles/Algorithm flow chart simplified.png". 
+
+## License
+Assets included in the project are licensed under either Creative Commons licenses, or public domain license as can be seen in their respective folders. The proprietary fitting placer algorithm code is dual-licensed under the both MIT License (see the "Assets/Scripts/FittingPlacer/LICENSE.txt" file for details) and Creative Commons 0 public domain license (see the "Assets/Scripts/FittingPlacer/LICENSE-Alternative.txt" file for details). Use either licence at you discretion. 
+
